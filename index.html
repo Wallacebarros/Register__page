@@ -7,9 +7,47 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/vars.css">
-    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/register.css">
+    <link rel="stylesheet" href="src/styles/login.css">
 </head>
 <body>
-    
+    <main class="main-content">
+        <section class="register">
+            <h1>crie sua conta</h1>
+            <div class="register__div--links">
+                <div class="register__link register__link--facebook">
+                    <i class="fa-brands fa-facebook"></i> facebook
+                </div>
+                <div class="register__link register__link--g-mail">
+                    <i class="fa-brands fa-google"></i> g-mail
+                </div>
+            </div>
+            <div class="regiter__div--input">
+                <label for="Name"><i class="fa-solid fa-user"></i></label>
+                <input type="text" name="Name" id="Name">
+            </div>
+            <div class="regiter__div--input">
+                <label for="E-mail"><i class="fa-solid fa-envelope"></i></label>
+                <input type="text" name="E-mail" id="E-mail">
+            </div>
+            <div class="regiter__div--input">
+                <label for="password"><i class="fa-solid fa-lock"></i></label>
+                <input type="text" name="password" id="password">
+            </div>
+            <div class="regiter__div--button">
+                <button>Cadastre-se</button>
+                <a href="#">termos e condições</a>
+            </div>
+        </section><!--
+        --><section class="login">
+            <h1>Bem-vindo</h1>
+            <div class="login__div">
+                <p>Ja possuo uma conta</p>
+                <button>login</button>
+                <a href="#">esqueci minha conta</a>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
