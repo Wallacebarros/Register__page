@@ -1,9 +1,36 @@
 body {
-    height: 100vh;
+    height: 90vh;
 
     background-image: url('../assets/img/backgroundImage.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center end;
+    background-position: center center;
 }
 
+.main-content {
+    color: var( --color-white);
+    min-height: 80vh;
+    margin: 10vh;
+    padding: 16px 0px;
+
+    backdrop-filter: blur(10px);
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.main-content input::placeholder {
+    color: var( --color-gray);
+}
+
+.main-content button {
+    border:2px solid var( --color-white);
+    border-radius: 6px;
+    color: var( --color-white);
+}
+
+.main-content a {
+    color: var( --color-white);
+    display: block;
+}
