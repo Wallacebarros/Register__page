@@ -19,7 +19,6 @@ body {
     color: var( --color-white);
     min-height: 80vh;
     margin: 10vh;
-    padding: 16px 0px;
 
     backdrop-filter: blur(10px);
     text-align: center;
@@ -39,6 +38,5 @@ body {
 }
 
 .main-content a {
-    color: var( --color-white);
     display: block;
 }

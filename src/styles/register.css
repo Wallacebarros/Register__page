@@ -1,0 +1,89 @@
+.register {
+    padding: 5vh 24px;
+    font-size: clamp(1rem, 2vw, 1em);
+}
+
+.register h1 {
+    font-size: clamp(2em, 5vw , 5rem);
+    font-weight: 900;
+
+    margin-bottom: 10vh;
+}
+
+.register__div--links {
+    display: flex;
+    justify-content: center;
+    gap: calc(2vw + 10px);
+    margin-bottom: 3.5vw;
+}
+
+.register__facebook {
+    color: #3b5998;
+    padding: 4px;
+    min-width: 90px;
+
+    border: 1px solid #3b5998;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.register__g-mail {
+    color: #fff;
+    padding: 4px;
+    min-width: 90px;
+
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.register__division {
+    font-weight: 400;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 3.5vh;
+}
+
+.register__division::after {
+    content: '_______________________________________________';
+    position: absolute;
+    transform: translate(+5%,-50%);
+}
+
+.register__division::before {
+    content: '___________________________________________';
+    position: absolute;
+    transform: translate(-105% , -50%);
+}
+
+.register__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.regiter__div--input {
+    padding: 6px 8px;
+    margin: 0 auto;
+    border: 2px solid var( --color-white);
+    border-radius: 6px;
+    text-align: start;
+}
+
+.regiter__div--input input {
+    color: var( --color-white);
+}
+
+.regiter__div--button {
+    margin-top: 4vh;
+}
+
+.regiter__div--button button{
+    padding: 6px 12px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.regiter__div--button a {
+    color: var( --color-white);
+}
