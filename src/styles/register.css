@@ -1,20 +1,21 @@
 .register {
-    padding: 5vh 24px;
+    padding: 8vh 24px;
     font-size: clamp(1rem, 2vw, 1em);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .register h1 {
     font-size: clamp(2em, 5vw , 5rem);
     font-weight: 900;
-
-    margin-bottom: 10vh;
 }
 
 .register__div--links {
     display: flex;
     justify-content: center;
     gap: calc(2vw + 10px);
-    margin-bottom: 3.5vw;
 }
 
 .register__facebook {
@@ -41,7 +42,6 @@
     font-weight: 400;
     position: relative;
     overflow: hidden;
-    margin-bottom: 3.5vh;
 }
 
 .register__division::after {
@@ -56,10 +56,10 @@
     transform: translate(-105% , -50%);
 }
 
-.register__inputs {
+.register__center {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 3vh;
 }
 
 .regiter__div--input {
@@ -74,16 +74,13 @@
     color: var( --color-white);
 }
 
-.regiter__div--button {
-    margin-top: 4vh;
-}
-
 .regiter__div--button button{
     padding: 6px 12px;
-    margin-bottom: 8px;
     cursor: pointer;
+    margin-bottom: 12px;
 }
 
 .regiter__div--button a {
     color: var( --color-white);
+    font-size: clamp(1rem, 0.5vw, 0.5rem);
 }
