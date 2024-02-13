@@ -1,0 +1,41 @@
+.login {
+    background-color: var( --color-white);
+    color: var( --color-blue);
+    padding: 8vh 0;
+    font-size: clamp(1rem, 2vw, 1em);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.login h1 {
+    font-size: clamp(2em, 3vw , 4.5rem);
+    font-weight: 900;
+}
+
+.login__div {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.login__div p {
+    font-weight: 400;
+}
+
+.login__div button {
+    margin: auto;
+    padding: 6px 12px;
+
+    font-weight: bold;
+
+    color: var( --color-blue);
+    border: 2px solid var( --color-blue);
+    cursor: pointer;
+}
+
+.login__div a {
+    color:  var( --color-blue);
+    font-size: clamp(1rem, 0.5vw, 0.5rem);
+}
