@@ -4,6 +4,7 @@ html {
 
 body {
     height: 90vh;
+    min-width: 232px;
 
     background-image: url('../assets/img/backgroundImage.jpeg');
     background-repeat: no-repeat;
