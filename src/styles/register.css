@@ -62,7 +62,18 @@
     gap: 3vh;
 }
 
-.regiter__div--input {
+.register__center span {
+    border: 2px solid #f00;
+    border-radius: 4px;
+    color: #f00;
+    font-weight: 800;
+    margin: auto;
+    padding: 6px 18px;
+
+    display: none;
+}
+
+.register__div--input {
     padding: 6px 8px;
     margin: 0 auto;
     border: 2px solid var( --color-white);
@@ -70,17 +81,17 @@
     text-align: start;
 }
 
-.regiter__div--input input {
+.register__div--input input {
     color: var( --color-white);
 }
 
-.regiter__div--button button{
+.register__div--button button{
     padding: 6px 12px;
     cursor: pointer;
     margin-bottom: 12px;
 }
 
-.regiter__div--button a {
+.register__div--button a {
     color: var( --color-white);
     font-size: clamp(1rem, 0.5vw, 0.5rem);
 }

@@ -6,19 +6,10 @@
     .main-content {
         display: flex;
         flex-direction: column;
-        /* height: 100vh; */
-        /* position: relative; */
         margin: 10vh 3vw;
     }
 
     .register {
-        /* height: 100%; */
-        /* position: absolute; */
-        /* top: 0;
-        left: 0; */
-        /* height: 80%;
-        width: 90%; */
-        /* margin: auto; */
         height: 60vh;
         padding: 8vh 6px;
     }
